@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+@import "./reset.scss";
+
+body {
+  font-family: "Outfit", sans-serif;
+  background-color: #141414;
+  height: calc(100vh - 2rem);
+}
+
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  min-height: 100vh;
+
+  .container {
+    margin: 1rem auto 1rem auto;
+    width: min(100% - 2rem, 350px);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 0.6rem;
+    gap: 0.5rem;
+    padding: 1rem;
+    background-color: #1f1f1f;
+    color: #fff;
+
+    .profile-image {
+      width: 50%;
+      border-radius: 50%;
+    }
+
+    h4 {
+      color: #bbd566;
+      margin-top: -0.7rem;
+    }
+
+    .bio {
+      font-weight: 300;
+      font-size: 0.9rem;
+    }
+
+    .social-links {
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+      text-align: center;
+      width: 80%;
+      margin: 1rem auto;
+
+      a {
+        background: #333;
+        color: #fff;
+        text-decoration: none;
+        padding: 0.5rem;
+        width: 100%;
+        border-radius: 8px;
+
+        &:hover {
+          background: #444;
+        }
+      }
+    }
+  }
+
+  .attribution {
+    font-size: 11px;
+    text-align: center;
+    background: #fff;
+    padding: 0.3rem 0.5rem;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+  }
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
+}
