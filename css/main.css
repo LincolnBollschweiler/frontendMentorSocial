@@ -102,7 +102,7 @@ body {
   border-radius: 50%;
 }
 .main .container h4 {
-  color: #bbd566;
+  color: #c5f82a;
   margin-top: -0.7rem;
 }
 .main .container .bio {
@@ -126,7 +126,8 @@ body {
   border-radius: 8px;
 }
 .main .container .social-links a:hover {
-  background: #444;
+  background: #c5f82a;
+  color: #000;
 }
 .main .attribution {
   font-size: 11px;
